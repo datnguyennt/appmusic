@@ -260,7 +260,7 @@ class _MyHomePageState extends State<MyHomePage>
                                               style: TextStyle(
                                                 fontSize: 12.0,
                                                 color: AppColor.background,
-                                                
+
                                               ),
                                             ),
                                           ),
