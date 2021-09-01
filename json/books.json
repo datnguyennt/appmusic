@@ -1,72 +1,44 @@
 [
    {
       "rating":"4.5",
-      "title":"THE WATER CURLE",
-      "text":"Lorem isum",
+      "title":"Đắc nhân tâm",
+      "text":"dnt",
       "img":"images/dacnhantam.jpg",
-      "audio":"a.mp3"
+      "audio":"https://thegrowingdeveloper.org/files/audios/quiet-time.mp3?b4869097e4"
    },
    {
       "rating":"5.0",
-      "title":"THE WATER CURLE",
+      "title":"Điều ước thứ 7",
       "text":"Lorem isum",
       "img":"images/green.png",
-      "audio":"a.mp3"
+      "audio":"https://thegrowingdeveloper.org/files/audios/quiet-time.mp3?b4869097e4"
    },
    {
       "rating":"4.5",
-      "title":"THE WATER CURLE",
+      "title":"Khi hơi thở hóa kinh không",
       "text":"Lorem isum",
       "img":"images/dacnhantam.jpg",
-      "audio":"a.mp3"
+      "audio":"https://thegrowingdeveloper.org/files/audios/quiet-time.mp3?b4869097e4"
    },
    {
       "rating":"5.0",
-      "title":"THE WATER CURLE",
+      "title":"Cafe cùng Tony",
       "text":"Lorem isum",
       "img":"images/green.png",
-      "audio":"a.mp3"
+      "audio":"https://thegrowingdeveloper.org/files/audios/quiet-time.mp3?b4869097e4"
    },
    {
       "rating":"4.5",
-      "title":"THE WATER CURLE",
+      "title":"Tony trên đường băng",
       "text":"Lorem isum",
       "img":"images/dacnhantam.jpg",
-      "audio":"a.mp3"
-   },
-   {
-      "rating":"5.0",
-      "title":"THE WATER CURLE",
-      "text":"Lorem isum",
-      "img":"images/green.png",
-      "audio":"a.mp3"
+      "audio":"https://thegrowingdeveloper.org/files/audios/quiet-time.mp3?b4869097e4"
    },
    {
       "rating":"4.5",
-      "title":"THE WATER CURLE",
-      "text":"Lorem isum",
+      "title":"Như chưa hề có cuộc chia ly",
+      "text":"VTV1",
       "img":"images/dacnhantam.jpg",
-      "audio":"a.mp3"
-   },
-   {
-      "rating":"5.0",
-      "title":"THE WATER CURLE",
-      "text":"Lorem isum",
-      "img":"images/dacnhantam.jpg",
-      "audio":"a.mp3"
-   },
-   {
-      "rating":"4.5",
-      "title":"THE WATER CURLE",
-      "text":"Lorem isum",
-      "img":"images/dacnhantam.jpg",
-      "audio":"a.mp3"
-   },
-   {
-      "rating":"4.5",
-      "title":"THE WATER CURLE",
-      "text":"Lorem isum",
-      "img":"images/green.png",
-      "audio":"a.mp3"
+      "audio":"https://thegrowingdeveloper.org/files/audios/quiet-time.mp3?b4869097e4"
    }
 ]
