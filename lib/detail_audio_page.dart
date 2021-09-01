@@ -5,7 +5,9 @@ import 'package:musicapp/app_colors.dart' as AppColors;
 import 'package:musicapp/audio_file.dart';
 
 class DetailAudioPage extends StatefulWidget {
-  const DetailAudioPage({Key? key}) : super(key: key);
+  final booksData;
+  final int index;
+  const DetailAudioPage({Key? key, this.booksData, required this.index}) : super(key: key);
 
   @override
   _DetailAudioPageState createState() => _DetailAudioPageState();
@@ -47,13 +49,16 @@ class _DetailAudioPageState extends State<DetailAudioPage> {
               backgroundColor: Colors.transparent,
               elevation: 0.0,
               leading: IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  advancedPlayer.stop();
+                  Navigator.pop(context);
+                },
                 icon: Icon(Icons.arrow_back_ios),
               ),
               actions: [
                 IconButton(
                   onPressed: () {},
-                  icon: Icon(Icons.arrow_back_ios),
+                  icon: Icon(Icons.search),
                 ),
               ],
             ),
@@ -74,19 +79,19 @@ class _DetailAudioPageState extends State<DetailAudioPage> {
                     height: screenHeight * 0.1,
                   ),
                   Text(
-                    "HelloWorld",
+                    this.widget.booksData[this.widget.index]['title'],
                     style: TextStyle(
                       fontSize: 30.0,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
-                    "Michale Jackson",
+                    this.widget.booksData[this.widget.index]['text'],
                     style: TextStyle(
                       fontSize: 20.0,
                     ),
                   ),
-                  AudioFile(advancedPlayer: advancedPlayer, audioPath: "https://thegrowingdeveloper.org/files/audios/quiet-time.mp3?b4869097e4",),
+                  AudioFile(advancedPlayer: advancedPlayer, audioPath: this.widget.booksData[this.widget.index]['audio'],),
                 ],
               ),
             ),
@@ -110,7 +115,7 @@ class _DetailAudioPageState extends State<DetailAudioPage> {
                       shape: BoxShape.circle,
                       border: Border.all(color: Colors.white, width: 5.0),
                       image: DecorationImage(
-                        image: AssetImage("images/red.png"),
+                        image: AssetImage(this.widget.booksData[this.widget.index]['img']),
                         fit: BoxFit.cover,
                       )),
                 ),

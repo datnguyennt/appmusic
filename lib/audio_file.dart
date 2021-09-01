@@ -75,8 +75,8 @@ class _AudioFileState extends State<AudioFile> {
     return
       IconButton(
         icon:   ImageIcon(
-          AssetImage('images/menu.png'),
-          size: 15,
+          AssetImage('images/skip_next.png'),
+          size: 30,
           color: Colors.black,
         ),
         onPressed: () {
@@ -87,8 +87,8 @@ class _AudioFileState extends State<AudioFile> {
   Widget btnSlow() {
     return IconButton(
       icon:   ImageIcon(
-        AssetImage('images/menu.png'),
-        size: 15,
+        AssetImage('images/skip_previous.png'),
+        size: 30,
         color: Colors.black,
       ),
       onPressed: () {
@@ -100,8 +100,8 @@ class _AudioFileState extends State<AudioFile> {
   Widget btnLoop() {
     return IconButton(
         icon:   ImageIcon(
-          AssetImage('images/menu.png'),
-          size: 15,
+          AssetImage('images/shuffle.png'),
+          size: 25,
           color: Colors.black,
         ), onPressed: () {  },
     );
@@ -109,8 +109,8 @@ class _AudioFileState extends State<AudioFile> {
   Widget btnRepeat() {
     return IconButton(
       icon: ImageIcon(
-        AssetImage('images/menu.png'),
-        size: 15,
+        AssetImage('images/loop.png'),
+        size: 30,
         color:color,
       ),
       onPressed: (){
